@@ -16,6 +16,15 @@ file : streo.ipynb
 link to grid corpus : https://zenodo.org/records/3625687
 file : data_generation.ipynb
 
-# Craeting GMM Model using MFCC Features and also using Bays Classifier 
+# Creating GMM Model using MFCC Features and also using Bays Classifier 
 
 File : gmm.ipynb
+
+# Deep Learning 
+
+Completed basic knowledge of deep learnig its flow , 
+then studied about CNN classfier ( how it works with and without hidden layer )
+then implemented the CNN logic to mnist dataset to understand its functionality and libraries like tensorflow
+
+file : mnist_cnn.ipynb
+
