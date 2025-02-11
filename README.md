@@ -15,3 +15,7 @@ file : streo.ipynb
 # Data Set  Generation Using Files From Grid Corpus 
 link to grid corpus : https://zenodo.org/records/3625687
 file : data_generation.ipynb
+
+# Craeting GMM Model using MFCC Features and also using Bays Classifier 
+
+File : gmm.ipynb
