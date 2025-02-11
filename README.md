@@ -6,4 +6,8 @@ This is machine learning project including deep learning for overlap  speech det
 started the learning with basic knowledge of feature extraction of audio samples using librosa library
 and generation of dataset for overlapped and non overlapped using two audio files 
 
-file : step1_merging.ipynb
+file : merging.ipynb
+
+# Dataset Creatiion Using Stereo Audio File
+here take two stereo audio files and using their dominant channels dataset for overlap and non overlap samples are created 
+file : streo.ipynb
