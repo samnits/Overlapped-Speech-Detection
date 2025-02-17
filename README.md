@@ -7,6 +7,20 @@ started the learning with basic knowledge of feature extraction of audio samples
 and generation of dataset for overlapped and non overlapped using two audio files 
 
 file : merging.ipynb
+using this file you can generate the number of samples of overlapped and non overlapped audios.
+here we keep the follwing length of generated samples
+min_duration = 2  # Minimum duration in seconds
+max_duration = 10 # Maximum duration in seconds
+max duration depends upon the length of smallest file in terms of time,
+
+How It Works :
+Audio 1 : Say X (10 sec length)
+Audio 2 : Say Y (20 sec length)
+randonly select starting point of both the audios :
+for generating overlap samples save audio1 + audio 2
+for non overlap save concatenate(audio 1, audio 2)
+
+
 
 # Dataset Creatiion Using Stereo Audio File
 here take two stereo audio files and using their dominant channels dataset for overlap and non overlap samples are created 
