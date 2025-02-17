@@ -14,7 +14,7 @@ min_duration = 2  # Minimum duration in seconds
 max_duration = 10 # Maximum duration in seconds  
 max duration depends upon the length of smallest file in terms of time,
 
-How It Works :
+How It Works : <br>
 Audio 1 : Say X (10 sec length)
 Audio 2 : Say Y (20 sec length)
 
