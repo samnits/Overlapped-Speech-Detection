@@ -33,6 +33,8 @@ Links of Files Used :
 file : streo.ipynb
 
 # Data Set  Generation Using Files From Grid Corpus 
+folders = ["s2", "s3", "s12", "s13", "s28", "s29", "s30"]
+using these folder dataset is generated for overlapped and non overlapped samples , and speaker information is saved in the txt file , so that it can be used in future 
 link to grid corpus : https://zenodo.org/records/3625687
 file : data_generation.ipynb
 
