@@ -71,4 +71,10 @@ file : mnist_cnn.ipynb
 
 # Convulational Neural Network Model For Overlapped Speech Detection
 
+Once i worked with mfcc features i got following matrix for overlapped speech detection <br>
+![Sample Image](images/matrix_gmm.png) <br>
+
+But i worked with cnn model i got the following matrix results for overlapped speech detection <br>
+![Sample Image](images/matrix_cnn.png)
+
 
