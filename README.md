@@ -57,7 +57,9 @@ Now using gmm.ipynb follow the follwing steps <br>
 2> Then Make Gusassian Mixture Model for overlapped and non overlapped samples using mfcc features for feature extraction <br>
 3> save gmm model info in txt file and the model too for further use <br>
 4> use last 3000 files for evaluation purpose , and predict the output and save information about ground truth and predicted truth <br>
-5> then save confusion matrix too
+5> then save confusion matrix too <br>
+![Sample Image](images/matrix_gmm.jpg)
+
 
 # Deep Learning 
 
