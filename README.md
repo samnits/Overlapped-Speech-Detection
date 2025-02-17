@@ -33,11 +33,20 @@ file : streo.ipynb
 
 # Data Set  Generation Using Files From Grid Corpus 
 folders = ["s2", "s3", "s12", "s13", "s28", "s29", "s30"]
-using these folder dataset is generated for overlapped and non overlapped samples , and speaker information is saved in the txt file , so that it can be used in future 
-link to grid corpus : https://zenodo.org/records/3625687
-file : data_generation.ipynb
+using these folder dataset is generated for overlapped and non overlapped samples , and speaker information is saved in the txt file , so that it can be used in future <br>
+link to grid corpus : https://zenodo.org/records/3625687 <br>
+file : data_generation.ipynb <br>
+
+Method Of Sample Generation Used Here  (for each sample) :<br>
+1> Randomly select two speakers , then randomly select any audio sample from these two speakers <br>
+2> Then randomly select whether to overlap or not <br>
+3> If Overlap save speaker information of both speakers  and save overlapped audio in dataset<br>
+4> If non overlap then randomly select one speaker out of two and save that audio as non overlap sample in dataset <br>
 
 # Creating GMM Model using MFCC Features and also using Bays Classifier 
+Using The data_generation.ipynb file generated 8000 samples (containing both overlapped and non overlapped samples) using <br>
+folders = ["s10", "s11", "s14", "s15", "s16", "s17", "s18", "s19", "s22", "s23", "s24", "s25", "s26", "s27"] <br>
+and saved its info in a txt file say output.txt (which contains speaker information too) <br>
 
 File : gmm.ipynb
 
