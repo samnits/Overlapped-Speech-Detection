@@ -8,11 +8,10 @@ and generation of dataset for overlapped and non overlapped using two audio file
 
 file : merging.ipynb
 using this file you can generate the number of samples of overlapped and non overlapped audios.
-here we keep the follwing length of generated samples
+here we keep the follwing length of generated samples  
 
 min_duration = 2  # Minimum duration in seconds
-max_duration = 10 # Maximum duration in seconds
-
+max_duration = 10 # Maximum duration in seconds  
 max duration depends upon the length of smallest file in terms of time,
 
 How It Works :
