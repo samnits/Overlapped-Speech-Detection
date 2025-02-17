@@ -49,7 +49,8 @@ folders = ["s10", "s11", "s14", "s15", "s16", "s17", "s18", "s19", "s22", "s23",
 and saved its info in a txt file say output.txt (which contains speaker information too) <br>
 
 File : gmm.ipynb
-
+<br>
+GMM : Gusassian Mixture Model
 <br>
 Now using gmm.ipynb follow the follwing steps <br>
 1> parse the metadata of first 5000 samples and save info in overlapped_files and non_overlapped_files in array <br>
@@ -65,4 +66,7 @@ then studied about CNN classfier ( how it works with and without hidden layer )
 then implemented the CNN logic to mnist dataset to understand its functionality and libraries like tensorflow
 
 file : mnist_cnn.ipynb
+
+# Convulational Neural Network Model For Overlapped Speech Detection
+
 
