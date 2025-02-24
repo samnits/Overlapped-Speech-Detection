@@ -77,4 +77,18 @@ Once i worked with mfcc features i got following matrix for overlapped speech de
 But i worked with cnn model i got the following matrix results for overlapped speech detection <br>
 ![Sample Image](images/matrix_cnn.png)
 
+#CNN Model for overlapped speech detetction for larger audio files 
 
+In this part we will use a larger audio file , like say 20 mins or 30 mins , and will find the overlapped section in this audio <br> 
+How the flow of task will work :<br>
+> We have already saved the model created in the last task , since model size was large so i have provided the drive link for that <br>
+Link : https://drive.google.com/file/d/1G2q_nUBOjLQ-8zTDS3NhgMZLi8n3Ov7A/view?usp=sharing <br>
+Our code Will import this model  and using that we will proceed further<br>
+>To adapt the model you've built so it can handle longer audio files with very small overlaps, <br>the following steps can be added:<br>
+
+1. Segment the Long Audio into Smaller Windows:<br>
+Instead of processing the whole 200-second audio file at once, you can break it into smaller segments (e.g., 3-second windows).
+Each window can be passed through the model to check for overlap.<br><br>
+2. Detect Overlap and Capture Timestamps:<br>
+After getting the predictions for each segment, you can check for those with an overlap label ("overlapped").
+For each positive overlap prediction, store the start and end timestamps.<br><br>
