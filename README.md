@@ -77,7 +77,7 @@ Once i worked with mfcc features i got following matrix for overlapped speech de
 But i worked with cnn model i got the following matrix results for overlapped speech detection <br>
 ![Sample Image](images/matrix_cnn.png)
 
-#CNN Model for overlapped speech detetction for larger audio files 
+# CNN Model for overlapped speech detetction for larger audio files 
 
 In this part we will use a larger audio file , like say 20 mins or 30 mins , and will find the overlapped section in this audio <br> 
 How the flow of task will work :<br>
