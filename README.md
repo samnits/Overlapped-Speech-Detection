@@ -20,7 +20,8 @@ Audio 2 : Say Y (20 sec length)
 
 randonly select starting point of both the audios :
 for generating overlap samples save audio1 + audio 2
-for non overlap save concatenate(audio 1, audio 2)
+for non overlap save concatenate(audio 1, audio 2)<br><br>
+we used the librosa library too for the basic understading of feature extraction.
 
 
 
