@@ -71,6 +71,9 @@ then implemented the CNN logic to mnist dataset to understand its functionality 
 file : mnist_cnn.ipynb
 
 # Convulational Neural Network Model For Overlapped Speech Detection
+<br>
+file= cnn.ipynb
+<br>
 
 Once i worked with mfcc features i got following matrix for overlapped speech detection <br>
 ![Sample Image](images/matrix_gmm.png) <br>
@@ -79,6 +82,7 @@ But i worked with cnn model i got the following matrix results for overlapped sp
 ![Sample Image](images/matrix_cnn.png)
 
 # CNN Model for overlapped speech detetction for larger audio files 
+<br> cnn_long_files.ipynb <br>
 
 In this part we will use a larger audio file , like say 20 mins or 30 mins , and will find the overlapped section in this audio <br> 
 How the flow of task will work :<br>
